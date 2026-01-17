@@ -1,0 +1,22 @@
+﻿
+namespace EmailMarketingApp.Models
+{
+    
+    public class EmailTemplate
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Category { get; set; }
+
+        public string Subject { get; set; }
+
+        public string HtmlBody { get; set; }
+
+        public string TextBody { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    }
+
+}
